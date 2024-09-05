@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TODO List</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>TODO LIST</h1>
+      <div class="content">
+        <input type="text" id="pr1-ip" placeholder="TODO Name" />
+        <input type="date" id="js-date" />
+        <input type="time" id="js-time" />
+        <button id="add-btn" onclick="addTodo();">ADD</button>
+      </div>
+
+      <h2 id="pending-count">Pending Tasks: 0</h2>
+
+      <button id="del-all-btn" onclick="deleteAllTodos();">
+        Delete All Tasks
+      </button>
+
+      <div id="items"></div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
