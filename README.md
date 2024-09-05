@@ -21,7 +21,7 @@ A simple web application for managing tasks with a user-friendly interface. User
 - JavaScript: Handles the functionality for adding, deleting, and rendering tasks, and manages local storage.
 ## How to Use
 
-- Open *link*:  in a web browser.
+- Open *link*: https://codesaadumair.github.io/TODO-LIST/ in a web browser.
 
 - Add a Task:
    - Enter the task name in the "TODO Name" input field.
